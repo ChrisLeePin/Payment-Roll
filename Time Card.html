@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="container">  
+<form id="contact" action="" method="post">
+<Header>
+	<h1>Time Card</h1>
+</Header>
+<nav>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="Home.html">Home</a>
+        <a href="Create Employee.html">Create Employee</a>
+        <a href="Change Employee.html">Change Employee</a>
+        <a href="Attendance.html">Attendance</a>
+        <a href="Time Card.html">Time Card</a>
+		<a href="Delete Employee.html">Delete Employee</a>
+        <a href="Final Payroll.html">Final Payroll</a>
+        <a href="Add Employee Award.html">Add Employee Award</a>
+      </div>
+    </div>
+</nav>
+<article>
+<p>
+	Name: <input type="text" name="Name">
+	<br>
+	ID: <input type="text" name="ID">
+	<br>	
+    Check in: <input type="time" name ="CheckIn">
+    <br>
+    Check Out: <input type="time" name ="CheckOut">
+    <br>
+    Payment Method: 
+    <select id="payment" name="payment">
+      <option value="cash">Cash</option>
+      <option value="bank">Bank Transfer</option>
+    </select>
+    <br>
+    <button name ="submit" type="submit">Submit</button>
+	<button name="cancel" type="cancel">Cancel</button>
+</p>
+</article>
+</form>
+</div>
+</body>
+</html>
